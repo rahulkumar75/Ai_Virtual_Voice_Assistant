@@ -32,7 +32,7 @@ This AI Virtual Assistant project leverages natural language processing (NLP) an
   
 # Installation
 * Prerequisites
-  - Python 3.x
+  - Python 3.12
   - PyTorch
   - NLTK
   - Other Python libraries as listed in requirements.txt
@@ -46,11 +46,11 @@ git clone https://github.com/yourusername/ai-virtual-assistant.git
 3. Download NLTK Data
   - import nltk
   - nltk.download('punkt')
-  - 
+
 4. Prepare Training Data
 * Ensure intents.json is correctly formatted and located in the project directory.
 * Train your model if not already trained. The training script should be included in your repository.
-* 
+  
 5. Run the Application
 * python AI_ASSISTANT.py
 
@@ -65,7 +65,7 @@ git clone https://github.com/yourusername/ai-virtual-assistant.git
 * The assistant will process the command and provide a response or perform the requested action.
   
 # Code Overview
-Main Script
+* Main Script
 * Imports and Configuration
   -Imports necessary libraries and configures the device for PyTorch.
   - Loads the intents file and trained model parameters.
@@ -104,8 +104,8 @@ The intents.json file contains various user intents and corresponding responses.
 # Future Enhancements
 * User Authentication: Enhance security features such as multi-factor authentication.
 * Expanded Intents: Add more intents and corresponding tasks.
-* Improved NLP: Integrate more advanced NLP techniques for better understanding of user commands.
+* Improved NLP: Integrate more advanced NLP techniques for a better understanding of user commands.
 * GUI Interface: Develop a graphical user interface for ease of use.
 # Contributors
-* Name: @ Rahul @ Amisha @ Anisha,
+* Name: @Rahul @Amisha @Anisha
 Feel free to reach out to me at rahulkumarx333@gmail.com for any questions or contributions.
