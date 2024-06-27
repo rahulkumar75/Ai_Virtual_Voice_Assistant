@@ -38,7 +38,7 @@ This AI Virtual Assistant project leverages natural language processing (NLP) an
   - Other Python libraries as listed in requirements.txt
 * Steps
 1. Clone the Repository
-git clone https://github.com/yourusername/ai-virtual-assistant.git
+git clone [ https://github.com/rahulkumar75/Ai_Virtual_Voice_Assistant.git ]
   - cd ai-virtual-assistant
     
 2. Install Dependencies
