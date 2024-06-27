@@ -1,4 +1,4 @@
-# AI Virtual Assistant
+# AI Virtual Voice Assistant
 # Table of Contents
 1. Introduction
 2. Features
