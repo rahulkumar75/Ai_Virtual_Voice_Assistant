@@ -1,4 +1,4 @@
-# AI Virtual Assistant Documentation
+# AI Virtual Assistant
 # Table of Contents
 1. Introduction
 2. Features
