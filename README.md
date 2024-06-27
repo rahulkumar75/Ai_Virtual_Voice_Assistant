@@ -81,20 +81,20 @@ git clone https://github.com/yourusername/ai-virtual-assistant.git
     
 # Intents JSON Structure
 The intents.json file contains various user intents and corresponding responses. Here is an example structure:
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Hi", "Hello", "How are you?"],
-      "responses": ["Hello!", "Hi there!", "Greetings!"]
-    },
-    {
-      "tag": "time",
-      "patterns": ["What time is it?", "Tell me the time"],
-      "responses": ["The current time is..."]
-    }
-  ]
-}
+- {
+-  "intents": [
+-    {
+-      "tag": "greeting",
+-      "patterns": ["Hi", "Hello", "How are you?"],
+-      "responses": ["Hello!", "Hi there!", "Greetings!"]
+-    },
+-    {
+-      "tag": "time",
+-     "patterns": ["What time is it?", "Tell me the time"],
+-      "responses": ["The current time is..."]
+-    }
+-  ]
+- }
 
 # Task Modules
 - Listen Module: Handles capturing audio input from the user.
