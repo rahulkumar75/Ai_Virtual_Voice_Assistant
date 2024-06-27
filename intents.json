@@ -1,0 +1,861 @@
+{
+    "intents": [
+        {
+            "tag": "ai image",
+            "patterns": [
+                "generate ai image",
+                "please create ai image",
+                "ai image create",
+                "ai image create karo"
+            ],
+            "responses": [
+                "ai image"
+            ]
+        },
+        {
+            "tag": "alarm",
+            "patterns": [
+                "set alarm",
+                "alarm",
+                "set an alarm",
+                "an alarm set",
+                "please set the alarm"
+
+            ],
+            "responses": [
+                "alarm"
+            ]
+        },
+        {
+            "tag": "whatsapp",
+            "patterns": [
+                "do whatsapp",
+                "whatsapp",
+                "please send message",
+                "whats app",
+                "send whatsapp message"
+
+            ],
+            "responses": [
+                "whatsapp"
+            ]
+        },
+        {
+            "tag": "temperature",
+            "patterns": [
+                "please find the temperature",
+                "temperature in patna",
+                "weather in ranchi",
+                "weather",
+                "find weather"
+            ],
+            "responses": [
+                "temperature"
+            ]
+        },
+        {
+            "tag": "movie",
+            "patterns": [
+                "movie details",
+                "movie info",
+                "movie information",
+                "please find movie data"
+            ],
+            "responses": [
+                "movie"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "get latest news",
+                "top 10 news",
+                "india news",
+                "new in india",
+                "today's news",
+                "news headlines",
+                "news"
+
+            ],
+            "responses": [
+                "news"
+            ]
+        },
+        {
+            "tag": "translate",
+            "patterns": [
+                "translate english to hindi",
+                "please translate",
+                "can you translate it",
+                "translate"
+
+            ],
+            "responses": [
+                "translate"
+            ]
+        },
+        {
+            "tag": "open",
+            "patterns": [
+                "search google.com",
+                "browse udemy.com",
+                "fast.com",
+                "open Notepad",
+                "open chrome",
+                "launch command prompt",
+               "please open calculator"
+
+
+            ],
+            "responses": [
+                "open"
+            ]
+        },
+        {
+            "tag": "close",
+            "patterns": [
+                "close one tab",
+                 "close two tab",
+                 "close three tab",
+                "close yhe tab"
+
+            ],
+            "responses": [
+                "close"
+            ]
+        },
+        {
+            "tag": "internet speed",
+            "patterns": [
+                "find internet speed",
+                "internet speed",
+                "find wifi speed",
+                "internet speed kya hai"
+
+            ],
+            "responses": [
+                "internet speed"
+            ]
+        },
+        {
+            "tag": "random advice",
+            "patterns": [
+                "give random advice",
+                "random advice",
+                "koi random advice do"
+            ],
+            "responses": [
+                "random advice"
+            ]
+        },
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet",
+                "google search",
+                "google",
+                "google karo",
+                "search karo"
+            ],
+            "responses": [
+                "google"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Namaste",
+                "yo what's up"
+            ],
+            "responses": [
+                "Hello",
+                "Hello sir,how are you?",
+                "Perfect, sir",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye",
+                "bye-bye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "thank u",
+                "thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "your welcome"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "Your Name",
+                "What is Your Name"
+            ],
+            "responses": [
+                "I am Desktop Assistant, an intelligent chatbot",
+                "An A.I Assistant",
+                "Great Assistant"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Karan Malik."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "karan",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is karan",
+                "karan malik"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact karan",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Karan very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!",
+                "That's Great"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2024, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "Whats is date",
+                "what's the date",
+                "date",
+                "tarikh",
+                "today's date"
+
+            ],
+            "responses": [
+                "date"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "Whats is time now",
+                "what's the time",
+                "time",
+                "samay",
+                "What is the time",
+                "tell me the time"
+
+            ],
+            "responses": [
+                "time"
+            ]
+        },
+        {
+            "tag": "day",
+            "patterns": [
+                "What's the day today",
+                "what's the day",
+                "today's day",
+                "din",
+                "aaj kon din hai",
+                "what day is today"
+
+            ],
+            "responses": [
+                "day"
+            ]
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": [
+                "who is",
+                "about",
+                "wikipedia",
+                "what is",
+                "tell me about",
+                "on wikipedia"
+
+            ],
+            "responses": [
+                "wikipedia"
+            ]
+        },
+        {
+            "tag": "search on google",
+            "patterns": [
+                "who is python",
+                "search on google what is",
+                "on google",
+                "google who is ram"
+
+            ],
+            "responses": [
+                "search on google"
+            ]
+        },
+        {
+            "tag": "search on youtube",
+            "patterns": [
+                "play arijit singh song",
+                "play on youtube",
+                "search on youtube",
+                "what is computer on youtube",
+                "on youtube"
+
+            ],
+            "responses": [
+                "search on youtube"
+            ]
+        },
+        {
+            "tag": "change password",
+            "patterns": [
+                "please change password",
+                "change password",
+                "password change"
+
+            ],
+            "responses": [
+                "change password"
+            ]
+        },
+        {
+            "tag": "screenshot",
+            "patterns": [
+                "take screenshot",
+                "capture screenshot",
+                "please take snap",
+                "take snapshot"
+
+
+            ],
+            "responses": [
+                "screenshot"
+            ]
+        },
+        {
+            "tag": "take my photo",
+            "patterns": [
+                "take my pic",
+                "capture my photo",
+                "please take photo",
+                "click my pic",
+                "click my photo",
+                "take my photo"
+
+
+            ],
+            "responses": [
+                "take my photo"
+            ]
+        },
+        {
+            "tag": "ai image",
+            "patterns": [
+                "generate ai image",
+                "ai image",
+                "generate image",
+                "create image",
+                "please generate an image"
+
+
+            ],
+            "responses": [
+                "ai image"
+            ]
+        },
+        {
+            "tag": "game",
+            "patterns": [
+                "let's play game",
+                "play game",
+                "start game",
+                "PLAY ROCK PAPER SCISSORS"
+
+
+            ],
+            "responses": [
+                "game"
+            ]
+        },
+        {
+            "tag": "ip address",
+            "patterns": [
+                "find my ip address",
+                "please tell me the Ip address",
+                "what is my ip address",
+                "ip address"
+
+
+            ],
+            "responses": [
+                "ip address"
+            ]
+        },
+        {
+            "tag": "set schedule",
+            "patterns": [
+                "schedule my day",
+                "set my schedule",
+                "clear my schedule",
+                "please set new schedule",
+                "set new schedule"
+
+
+
+            ],
+            "responses": [
+                "set schedule"
+            ]
+        },
+        {
+            "tag": "show my schedule",
+            "patterns": [
+
+                "view my schedule",
+                "display my schedule",
+                "please show the schedule"
+
+
+            ],
+            "responses": [
+                "show my schedule"
+            ]
+        },
+        {
+            "tag": "shutdown system",
+            "patterns": [
+                "shutdown pc",
+                "system shutdown",
+                "turn of system",
+                "close the computer",
+                "shutdown"
+
+
+            ],
+            "responses": [
+               "shutdown system"
+            ]
+        },
+        {
+            "tag": "paly",
+            "patterns": [
+                "play"
+            ],
+            "responses": [
+               "play"
+            ]
+        },
+        {
+            "tag": "pause",
+            "patterns": [
+                "pause"
+            ],
+            "responses": [
+               "pause"
+            ]
+
+        },
+        {
+            "tag": "mute",
+            "patterns": [
+                "mute"
+            ],
+            "responses": [
+               "mute"
+            ]
+        },
+        {
+            "tag": "unmute",
+            "patterns": [
+                "unmute"
+            ],
+            "responses": [
+               "unmute"
+            ]
+        },
+        {
+            "tag": "volume up",
+            "patterns": [
+                "volume up"
+            ],
+            "responses": [
+              "volume up"
+            ]
+        },
+        {
+            "tag": "volume down",
+            "patterns": [
+                "volume down"
+            ],
+            "responses": [
+              "volume down"
+            ]
+        },
+        {
+            "tag": "remember that",
+            "patterns": [
+                "remember that",
+                "Please remember it",
+                "remember it",
+                "ise yaad rakh lo",
+                "memorize it"
+            ],
+            "responses": [
+              "remember that"
+            ]
+        },
+        {
+            "tag": "do you remember anything",
+            "patterns": [
+                "do you remember anything",
+                "are remember anything",
+                "kya tumhe kuch yadd hai",
+                "are you remember"
+            ],
+            "responses": [
+              "do you remember anything"
+            ]
+        },
+        {
+            "tag": "send email",
+            "patterns": [
+                "please send mail",
+                "do mail",
+                "email",
+                "send the mail",
+                "send email"
+            ],
+            "responses": [
+             "send email"
+            ]
+        }
+    ]
+}
