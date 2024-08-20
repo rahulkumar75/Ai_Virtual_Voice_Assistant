@@ -17,7 +17,7 @@
 # Introduction
 Developed an AI-driven virtual voice assistant capable of understanding and responding to user commands through Natural Language Processing(NLP), Machine Learning,  and Neural Networks involving several components and techniques from these fields. This project integrated speech recognition, natural language understanding, and text-to-speech technologies to create a seamless, interactive user experience. The assistant was designed to perform the user's day-to-day various tasks, such as answering questions, making recommendations, controlling smart devices, showing weather reports, managing schedules, setting reminders, searching the web, creating reminders, setting Alarms, and providing personalized responses based on user preferences.
 
-# Here's a high-level overview of the process and technologies involved:
+# High-level overview of the process and technologies involved:
 - Data Collection: Text Data, Labeling
 - Natural Language Processing (NLP): Tokenization, Part-of-Speech Tagging, Named Entity Recognition (NER), Dependency Parsing, Sentiment Analysis
 - Model Selection: Intent Classification, Entity Recognition, Response Generation
