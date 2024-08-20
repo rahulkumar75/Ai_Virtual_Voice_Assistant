@@ -14,7 +14,7 @@
 12. Contributors
 
 # Introduction
-Developed an AI-driven virtual voice assistant capable of understanding and responding to user commands through Machine Learning, Natural Language Processing, Neural Networks. This project integrated speech recognition, natural language understanding, and text-to-speech technologies to create a seamless, interactive user experience. The assistant was designed to perform various tasks, such as managing schedules, setting reminders, searching the web, controlling smart devices, and providing personalized responses based on user preferences.
+Developed an AI-driven virtual voice assistant capable of understanding and responding to user commands through Natural Language Processing(NLP), Machine Learning,  Neural Networks. This project integrated speech recognition, natural language understanding, and text-to-speech technologies to create a seamless, interactive user experience. The assistant was designed to perform various tasks, such as managing schedules, setting reminders, searching the web, controlling smart devices, and providing personalized responses based on user preferences.
 
 # Key Features
 * Speech Recognition: Implemented using Python's SpeechRecognition library, allowing the assistant to accurately convert spoken words into text.
