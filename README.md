@@ -22,7 +22,7 @@ Developed an AI-driven virtual voice assistant capable of understanding and resp
 - Natural Language Processing (NLP): Tokenization, Part-of-Speech Tagging, Named Entity Recognition (NER), Dependency Parsing, Sentiment Analysis
 - Model Selection: Intent Classification, Entity Recognition, Response Generation
 - Model Training: Prepare Data, Train Models, Evaluate Models
-- Integration: Dialogue Management, External APIs
+- Integration: External APIs
 - User Interface: Virtual Assistant Interface
 
 # Key Features
