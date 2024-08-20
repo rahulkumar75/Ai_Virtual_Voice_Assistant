@@ -1,20 +1,29 @@
 # AI Virtual Voice Assistant
 # Table of Contents
 1. Introduction
-2. Key Features
-3. Technology Used
-4. Installation
-5. Usage
-6. Code Overview
-7. Main Script
-8. Model Training
-9. Intents JSON Structure
-10. Task Modules
-11. Future Enhancements
-12. Contributors
+2. High-level overview
+3. Key Features
+4. Technology Used
+5. Installation
+6. Usage
+7. Code Overview
+8. Main Script
+9. Model Training
+10. Intents JSON Structure
+11. Task Modules
+12. Future Enhancements
+13. Contributors
 
 # Introduction
-Developed an AI-driven virtual voice assistant capable of understanding and responding to user commands through Natural Language Processing(NLP), Machine Learning,  Neural Networks. This project integrated speech recognition, natural language understanding, and text-to-speech technologies to create a seamless, interactive user experience. The assistant was designed to perform various tasks, such as managing schedules, setting reminders, searching the web, controlling smart devices, and providing personalized responses based on user preferences.
+Developed an AI-driven virtual voice assistant capable of understanding and responding to user commands through Natural Language Processing(NLP), Machine Learning,  and Neural Networks involving several components and techniques from these fields. This project integrated speech recognition, natural language understanding, and text-to-speech technologies to create a seamless, interactive user experience. The assistant was designed to perform the user's day-to-day various tasks, such as answering questions, making recommendations, controlling smart devices, showing weather reports, managing schedules, setting reminders, searching the web, creating reminders, setting Alarms, and providing personalized responses based on user preferences.
+
+# Here's a high-level overview of the process and technologies involved:
+- Data Collection: Text Data, Labeling
+- Natural Language Processing (NLP): Tokenization, Part-of-Speech Tagging, Named Entity Recognition (NER), Dependency Parsing, Sentiment Analysis
+- Model Selection: Intent Classification, Entity Recognition, Response Generation
+- Model Training: Prepare Data, Train Models, Evaluate Models
+- Integration: Dialogue Management, External APIs
+- User Interface: Virtual Assistant Interface
 
 # Key Features
 * Speech Recognition: Implemented using Python's SpeechRecognition library, allowing the assistant to accurately convert spoken words into text.
