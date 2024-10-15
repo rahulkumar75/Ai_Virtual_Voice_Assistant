@@ -131,6 +131,4 @@ This project provided a comprehensive hands-on experience in integrating AI with
 * Expanded Intents: Add more intents and corresponding tasks.
 * Improved NLP: Integrate more advanced NLP techniques for a better understanding of user commands.
 * GUI Interface: Develop a graphical user interface for ease of use.
-# Contributors
-* Name: @Rahul @Amisha @Anisha
-Feel free to reach out to me at rahulkumarx333@gmail.com for any questions or contributions.
+
